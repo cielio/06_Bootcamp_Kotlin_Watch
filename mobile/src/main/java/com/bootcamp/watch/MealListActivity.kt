@@ -18,7 +18,7 @@ class MealListActivity : AppCompatActivity(), MealListAdapter.Callback {
     list.layoutManager = LinearLayoutManager(this)
   }
 
-  override fun mealClicked(meal: Meal) {
+  override fun mealClicked(meal: com.cielio.shared.Meal) {
     // TODO: Handle this meal click!
   }
 }

@@ -23,8 +23,8 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':shared')
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-
     implementation "com.android.support:support-v4:$support_version"
     implementation "com.android.support:wear:$support_version"
     implementation 'com.google.android.gms:play-services-wearable:17.0.0'
