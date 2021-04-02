@@ -1,6 +1,6 @@
 package com.cielio.shared
 
-data class Meal(
+public data class Meal(
     val title: String,
     val calories: Int,
     val ingredients: List<String>,
